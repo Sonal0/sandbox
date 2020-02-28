@@ -13,7 +13,9 @@ const liMaker = (text) => {
   ul.appendChild(li);
 }
 
-form.addEventListener('submit', function (e) {
+$('#btn_actn').click(function (e) {
+
+alert("check");
   e.preventDefault();
 
   itemsArray.push(input.value);
